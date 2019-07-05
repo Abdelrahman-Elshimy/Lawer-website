@@ -1,0 +1,1119 @@
+/******************** my framwork *******************************/
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+button
+{
+    padding: 5px 20px;
+    margin-top: -5px;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.color{
+  color: #d3ab77;
+  font-size: 18px;
+  font-family:opensans-Regularimport;
+}
+.signIn
+{
+    background: none;
+    border: 1px solid #D4B080; 
+}
+.signIn:hover 
+{
+    background: #D4B080;
+
+}
+.signIn:hover a
+{
+    color: #fff;
+}
+.signUp
+{
+    background: #D4B080;
+    border: 1px solid #D4B080; 
+}
+.signUp:hover
+{
+    background: none;
+}
+/******************** my framwork *******************************/
+
+/******************* start style top head ***********************/
+.scrollTop
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #D4B080;
+    font-size: 16px;
+    background: #D4B080;
+    display: none;
+    cursor: pointer;
+    z-index: 999999999999999999999999999
+}
+.top-head
+{
+    background: #222222;
+    color: #ccc;
+    padding: 10px 0 20px 0;
+}
+.top-head ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.top-head ul li
+{
+    float: right;
+    margin: 0 0 0 20px;
+    
+}
+.top-head ul li a
+{
+    color: #fff;
+}
+.top-head ul li a:hover
+{
+    text-decoration: none;
+}
+.top-head img
+{
+    margin-right: 10px;
+    width: 24px 24px;
+}
+.top-head ul li span
+{
+    font-size: 15px;
+    font-family:OpenSans-Lightimport;
+}
+
+/******************* end style top head ***********************/
+
+
+/********************** start navbar ****************************/
+.navbar-default
+{
+    
+    border: none;
+    background: transparent;
+    padding: 20px;
+}
+.navbar-collapse
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    border-bottom: 2px solid transparent
+}
+.navbar-default .navbar-brand
+{
+    color: #fff;
+}
+.navbar-brand
+{
+    padding: 0;
+    
+
+}
+.navbar-default .navbar-nav>li>.active
+{
+    border-bottom: 2px solid #D4B080;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+    border-bottom: 2px solid #D4B080;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>.not-hover:hover
+{
+    border-bottom: none
+}
+
+.navbar-toggle
+{
+    margin-top: 20px;
+}
+@media screen and (max-width: 992px) and (min-width: 768px)
+{
+    .navbar-default .navbar-nav>li>a
+    {
+        font-size: 13px;
+    }
+}
+
+@media(min-width:768px)
+{
+
+  .navbar-default
+  {
+      margin-bottom: -120px;
+      z-index: 99999999999999999999999
+  }
+}
+@media(max-width:768px)
+{
+    
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>.not-hover button,
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-brand
+    {
+        color: #333;
+    }
+    
+}
+
+/********************** end navbar ****************************/
+
+/*********************** start section back ****************/
+
+.contact
+{
+    background: url("../images/b.png") center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.back
+{
+    background: url("../images/b.png") center;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    padding-bottom: 150px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.back h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Cinzel-Regularimport;
+}
+hr
+{
+    border: 1px solid #D4B080;
+    width: 20%;
+    margin-top: 30px;
+}
+.back .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 200px;
+    
+}
+.back p
+{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+.back button
+{
+    margin: 10px 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+@media(max-width:768px)
+{
+    .back .overlay
+    {
+        padding-top: 100px;
+    }
+    
+}
+@media(max-width:348px)
+{
+    .back
+    {
+        padding-bottom: 260px;
+    }
+}
+/*********************** start section back ****************/
+
+/************************ start section about *************************************/
+.about
+{
+    background: url(../images/about.png) center;
+	background-size: cover; 
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 170px;    
+    background-position: 80%;
+}
+@media (max-width: 900px)
+{
+    
+.about 
+{
+    background: url(../images/about.png);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+}
+
+.about .over
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.0);
+    padding-top: 50px;
+
+  
+}
+@media(max-width:870px)
+{
+    .about .over
+    {
+        background: rgba(0,0,0,.2);
+        color: #ddd;
+    }
+}
+@media(max-width:697px)
+{
+    .about
+    {
+        padding-top: 350px;
+        padding-bottom: 200px;
+    }
+}
+@media(max-width:539px)
+{
+    .about
+    {
+        padding-top: 350px;
+        padding-bottom: 250px;
+    }
+}
+@media(max-width:415px)
+{
+    .about
+    {
+        padding-top: 350px;
+        padding-bottom: 400px;
+    }
+}
+@media(max-width:347px)
+{
+    .about
+    {
+        padding-top: 350px;
+        padding-bottom: 650px;
+    }
+}
+.about .special
+{
+    margin-top: -10px;
+    position: relative;
+    font-size: 33px;
+    font-weight: bold;
+}
+.about .special:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 80px;
+    border-bottom: 3px solid #D4B080;
+}
+
+@media(max-width:647px)
+{
+    .about .special:after
+    {
+        top: 120px;
+    }
+}
+@media(max-width:348px)
+{
+    .about .special:after
+    {
+        top: 150px;
+    }
+}
+
+
+.about p:first-of-type
+{
+    margin: 30px 0;
+}
+.about p
+{
+    margin: 10px 0;
+    font-size: 15px;
+    
+}
+.about .b-p
+{
+    font-size: 20px;
+    color: #333;
+    font-weight: bold
+}
+.about .b-p span
+{
+    width: 30px;
+    display: inline-block;
+}
+/************************ end section about *************************************/
+
+
+/************************** start section why us  ********************************/
+ .why-us{
+    padding: 50px 0;
+    outline: none;
+    text-align: center;
+ }
+ .why-us h3 span
+ {
+     font-size: 24px;
+     font-weight: 400;
+     font-family:Cinzel-Regularimport;
+ }
+   h3{
+    font-size: 33px;
+    font-family:OpenSans-Regularimport;
+    font-weight: bold;
+    }
+  
+   .why-us p,
+   .pricing .st-p,
+   .demo p
+   {
+    padding-bottom: 40px;
+    margin: 30px 0 20px 0;
+    color: #a2a2a2;
+    font-size: 18px;
+   }
+   .pricing .st-p
+   {
+       color: #fff;
+   }
+   .why-us .row > div{
+    margin-bottom: 20px;
+   }
+   .why-us .img{
+    float: left;
+    width: 40%;
+    border-right:2px solid #eee;
+   }
+   .why-us .num{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    
+   }
+   .why-us .num h4{
+    font-size: 33px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family:OpenSans-Lightimport;
+   }
+   .why-us .num span{
+    color: #919191;
+    font-family:OpenSans-Regularimport;
+   }
+
+
+   @media(max-width:560px)
+   {
+       .why-us .row > div
+       {
+           width: 100%;
+       }
+   }
+/************************** end section why us ***********************************/
+
+
+/************************** start section pricing**********************************/
+     .pricing{
+       
+        background: url(../images/pricing.png);
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 30px 0;
+        
+     }
+     .pricing h3{
+         line-height: 40px;
+         font-weight: bold;
+     }
+      .pricing .row hr
+      {
+          width: 90%;
+      }
+       .pricing .row h3
+       {
+           font-size: 28px;
+           line-height: 1.4;
+           font-family:Cinzel-Regularimport;
+       }
+       
+     .pricing  .row > div{
+        text-align: center;
+        margin-bottom: 20px;
+     }
+      
+      .pricing .plan{
+        background:#fff;
+        width: 93%;
+        color: #000;
+        padding: 30px 40px 30px 40px;
+        margin: auto;
+        border-radius: 3px;
+      }
+     
+    .pricing .plan .cost
+    {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+      .pricing .plan .cost i
+      {
+        font-size: 20px;
+        font-weight: 100;
+        color: #333;
+        
+      }
+      .pricing .plan .cost sup
+      {
+          
+          margin-right: 3px;
+      }
+      .pricing .plan .cost span{
+        font-size: 40px;
+        display: inline-block;
+        
+      }
+      .pricing .plan .cost sub
+      {
+        font-family:OpenSans-Lightimport;
+        font-weight: 100;
+        font-size: 34px;
+      }
+      .pricing .plan-ul{
+        padding: 0;
+        margin: 0;
+         color: #959595;
+         width: 90%;
+         margin: auto;
+         padding-left: 15px;
+
+      }
+      .pricing .plan-ul span{
+        padding-left: 0;
+        color: #a2a2a2;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        display: block;
+        text-align: left;
+        margin-left: -13px;
+      } 
+      .pricing .plan-ul li{
+        font-size: 13px;
+        margin: 3px 0;
+        color: #626262;
+      }
+      .pricing .bill{
+        display: block;
+        margin: 15px 0;      
+      }
+      .pricing a{
+        text-decoration: none;
+        color:#D4B080;
+      }
+      .pricing button
+      {
+          padding: 10px 20px;
+      }
+      .pricing button a
+      {
+          font-size: 17px;
+          font-weight: 600
+      }
+      .pricing select
+      {
+          width: 60%;
+          height: 30px;
+      }
+      .pricing .signUp a
+      {
+          color: #fff;
+      }
+      .pricing .signUp:hover a
+      {
+          color: #D4B080
+      }
+      .pricing select option
+      {
+          padding: 10px 5px;
+      }
+      .pricing .fixed-position
+      {
+          position: relative;
+      }
+      .pricing .image-div
+      {
+          position: absolute;
+          left: -10px;
+          top: 10px;
+          background: url("../images/icons/bestValue.png");
+          width: 136px;
+          height: 41px;
+          text-align: left;
+          line-height: 41px;
+          padding-left: 10px;
+          color: #fff;
+      }
+      .regular-font
+        {
+            font-family:OpenSans-regularimport;
+            font-size: 16px;
+            font-weight: bold;
+        }
+      
+.input {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  color: #555;
+  font-weight: 300;
+  font-size: 16px;
+  position: relative;
+  text-align: left;
+}
+
+.select {
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+  width: 60%;
+  font-family:OpenSans-Regularimport;
+}
+.select .input:after, .select .input:before {
+  content: '';
+  position: absolute;
+  left: calc(100% - 20px);
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  
+}
+.select .input:before {
+  border-top: 5px solid #D4B080;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 50%;
+}
+.select .input:after {
+  border-top: 5px solid #D4B080;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: calc(50% - 1px);
+}
+.select-options {
+  border: 1px solid #D4B080;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  border-radius: 3px;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  display: none;
+  overflow: hidden;
+  font-family:OpenSans-Regularimport;
+
+}
+.select-options.visible {
+  display: block;
+}
+.select-options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.select-options ul li {
+  padding: 8px 50px 8px 6px;
+  font-size: 13px;
+  color: #333;
+  font-weight: 300;
+  position: relative;
+  overflow: hidden;
+}
+.select-options ul li:hover {
+  background: #D4B080;
+  color: #fff;
+}
+.select-options ul li:last-child {
+  border-bottom: 0;
+}
+.select-options ul li.selected{
+  color: #fff;
+  background: #D4B080;
+}
+.select-options ul li.selected:after {
+  content: '';
+  width: 5px;
+  height: 10px;
+  border: 1px solid #fff;
+  border-right: 0;
+  border-bottom: 0;
+  left: calc(100% - 20px);
+  top: 50%;
+  transform: translateY(-50%) rotate(-135deg);
+  position: absolute;
+}
+
+/************************** end section pricing ************************************/
+
+/************************** start section demo ************************************/
+.demo{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.demo p{
+  
+  margin: 0;
+  line-height: 1.8
+}
+.demo p span 
+{
+    text-transform: uppercase;
+}
+.demo a{
+    text-decoration: none;
+    color: #fff;
+}
+.demo button
+{
+    padding: 10px 30px;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+.demo button:hover a
+{
+    color: #D4B080;
+}
+
+.demo .color
+{
+    font-size: 28px;
+    font-family:OpenSans-Semiboldimport;
+}
+/************************** end section demo ************************************/
+
+
+/************************* start footer ***************************************/
+/************************* start footer ***************************************/
+
+
+ footer {
+    padding: 50px 0 10px 0;
+    background:#2d2d2d;
+    color: #fff; 
+    font-size: 18px;
+ } 
+
+  footer  .row >div{
+    margin-bottom: 20px;
+  }
+   footer p a{
+    color: #8f8f8f;
+     font-family:OpenSans-Lightimport;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+    
+   }
+footer p a:hover
+{
+    text-decoration: none;
+    color: #aaa;
+    padding-left: 3px;
+}
+footer .log
+{    
+   padding: 0;
+   margin: 0;
+}
+footer .call{
+    background-color: #D4B080;
+    padding: 8px 28px;
+    margin-bottom: -10px;
+    border-radius: 4px;
+    color: #fff;
+    border: 2px solid #D4B080;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.footer .row > div:nth-of-type(5)
+{
+    color: #f00;
+}
+footer .call:hover
+{
+    background: transparent;
+    color: #D4B080;
+    padding: 8px 28px;
+}
+@media(min-width:1200px)
+{
+    footer .call-div
+    {
+        text-align: right;
+    }
+}
+@media(max-width:1200px)
+{
+    footer .log img
+    {
+        height: 100px;
+    }
+}
+footer .call-div
+{
+    padding-top: 12px;
+}
+@media(min-width:1200px)
+{
+    footer .small-span
+    {
+        font-size: 12px;
+    }
+}
+footer .copy,
+footer .icon-span
+{
+    color: #8f8f8f;
+    
+}
+footer .copy
+{
+    margin-top: 20px;
+}
+footer .icon-span span
+{
+     font-family:OpenSans-Lightimport;
+}
+
+
+
+/************************ end footer ****************************************/
+
+
+
+/************* contact page ****************/
+
+.contact-us .row
+{
+    border: 1px solid #cccccc;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px 100px;
+}
+/*login page*/
+.login .row
+{
+    width: 400px;
+    padding: 30px 20px;
+}
+@media(max-width:550px)
+{
+    .login .row
+    {
+        width: 95%;
+        padding: 30px 5px;
+    }
+}
+.login a
+{
+    text-decoration: none;
+    color: #666;
+    font-family:OpenSans-Regularimport;
+}
+.login .val_error
+{
+    margin-top: 5px;
+}
+.val_error img
+{
+    margin-left: 10px;
+}
+.login .sub
+{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sub-button hr
+{
+    width: 100%;
+    border: .5px solid #ddd;
+} 
+.links 
+{
+    font-family:OpenSans-Regularimport;
+    margin-top: -20px;
+}
+.links a:first-of-type
+{
+    font-size: 16px;
+}
+.links .rig
+{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cc9966;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    color:#cc9966;
+}
+.links .rig:hover 
+{
+    background: #cc9966;
+    color: #fff;
+   
+    
+}
+/*.links .rig:hover
+{
+    background: #cc9966;
+    color: #fff;
+}
+.links .rig a
+{
+     -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.links a:hover .rig
+{
+    color: #fff;
+}*/
+/*login page*/
+.contact-us .row form > div
+{
+    margin-bottom: 30px;
+}
+.contact-us .row form > div input:not(.sub)
+{   
+    width: 100%;
+    border: none;
+    height: 43px;
+    border-bottom: 1px solid #cc9966;
+    padding-left:5px;
+	outline: none;
+    color: #a7a5a5;
+    font-size: 16px;
+    font-family:OpenSans-Regularimport;
+}
+.contact-us .row form .avatar
+{
+    background: url(../images/icons/sub-icons/1.png)  no-repeat right 25px center;
+}
+.contact-us .row form .email
+{
+    background: url(../images/icons/sub-icons/2.png)  no-repeat right 25px center;
+}
+
+.contact-us .row form .phone
+{
+    background: url(../images/icons/sub-icons/3.png)  no-repeat right 25px center;
+    
+}
+.contact-us .row form .state
+{
+    background: url(../images/icons/sub-icons/4.png)  no-repeat right 25px center;
+}
+.contact-us .row form .city
+{
+    background: url(../images/icons/sub-icons/5.png)  no-repeat right 25px center;
+}
+.contact-us .row form .coname
+{
+    background: url(../images/icons/sub-icons/6.png)  no-repeat right 25px center;
+}
+.contact-us .row form .zip
+{
+    background: url(../images/icons/sub-icons/7.png)  no-repeat right 25px center;
+}
+.contact-us .row form .lock
+{
+    background: url(../images/icons/sub-icons/8.png)  no-repeat right 25px center;
+}
+.contact-us .row form > div .not-full
+{
+    width: initial;
+    height: initial;
+    margin-right: 10px;
+}
+.contact-us .row form > div textarea
+{
+    width: 100%;
+    height:150px;
+    color: #999999;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family:OpenSans-Regularimport;
+    border: 1px solid #cc9966;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.contact-us span
+{
+    color: #999999;
+}
+.sub-button input
+{
+    background: #cc9966;
+    border: 1px solid #cc9966;
+    width: 40%;
+    color: #fff;
+    font-size: 16px;
+    font-family:OpenSans-Regularimport;
+    padding: 10px 0;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.last-button input
+{
+    background: #fff;
+    border: 1px solid #cc9966;
+    color: #cc9966;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sub-button input:hover
+{
+    background: #fff;
+    border: 1px solid #cc9966;
+    color: #cc9966;
+}
+.last-button input:hover
+{
+    background: #cc9966;
+    color: #fff;
+}
+@media(max-width:590px)
+{
+    .contact-us .row
+    {
+        padding: 30px 20px;
+    }
+}
+@media(max-width:350px)
+{
+    .contact-us .row form > div input:not(.sub)
+    {
+        background: none;
+    }
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a7a5a5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #a7a5a5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #a7a5a5;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #a7a5a5;
+}
+/**************end contact page *********************/
+
+/************************ fonts ****************************************/
+@font-face{
+    font-family:Cinzel-Regularimport;
+    src:url(../fonts/Cinzel-Regular.ttf);
+}
+@font-face{
+    font-family:OpenSans-Boldimport;
+    src:url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family:OpenSans-Lightimport;
+    src:url(../fonts/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family:OpenSans-Regularimport;
+    src:url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family:OpenSans-Semiboldimport;
+    src:url(../fonts/OpenSans-Semibold.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+
+     font-family:Cinzel-Regularimport;
+}
+p,a, button 
+{
+    font-family:OpenSans-Lightimport;
+}
+span
+{
+   font-family:OpenSans-Semiboldimport;
+}
+
+/************************ fonts ****************************************/
